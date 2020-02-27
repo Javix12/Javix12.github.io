@@ -1,0 +1,136 @@
+body{
+  font-size: 20px;
+  background:url(mh.jpg);
+  text-align: justify;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, .Main, footer {
+  margin:20px auto;
+  width: 90%;
+  max-width: 1000px;
+  background: url(ola.jfif);
+}
+
+header nav{
+  background: #528FD5;
+  overflow: hidden;
+}
+
+header nav ul {
+  list-style: none;
+  float: left;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  float: left;
+  padding:  10px 20px;
+  display: block;
+  color: #fff;
+  text-decoration:  none;
+}
+
+header nav ul li a:hover{
+  background: #75ACEC;
+}
+
+.Main .Articles {
+  width: 68.5%;
+  float: left;
+  margin-right: 1.5%
+}
+
+aside {
+  width: 30%;
+  float:left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Main .Articles article{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  clear: both;
+  padding: 10px 0px;
+  text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook2 {
+	background: #0A3649;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube2 {
+	background: #EA2525;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+img {
+  width: 135px;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px #424242;
+}
